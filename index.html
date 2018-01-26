@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>금융공학 레시피</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	body {font-family: "Lato", sans-serif}
+	.mySlides {display: none}
+	</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+  	<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars">금융공학 레시피</i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#book" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BOOK</a>
+    <a href="#recommend" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RECOMMEND</a>
+    <a href="#author" class="w3-bar-item w3-button w3-padding-large w3-hide-small">AUTHOR</a>    
+    <a href="#site" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SITES</a>
+    <a href="#download" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOWNLOAD</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <!--div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a-->
+  </div>
+</nav>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#book" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BOOK</a>
+    <a href="#author" class="w3-bar-item w3-button w3-padding-large w3-hide-small">AUTHOR</a>    
+    <a href="#site" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SITES</a>
+    <a href="#download" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOWNLOAD</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./image/ny01.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h5>금융인이라면 꼭 알아야 할</h5> 
+      <h1  class="w3-tangerine"><b>금융공학 레시피</b></h1>
+      <h6><i>한국거래소 김용환<br>한국투자공사 Indygrab 공저</i></h6>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./image/ny02.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h5>금융인이라면 꼭 알아야 할</h5> 
+      <h1><b>금융공학 레시피</b></h1>
+      <h6><i>한국거래소 김용환<br>한국투자공사 Indygrab 공저</i></h6>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./image/ny03.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h5>금융인이라면 꼭 알아야 할</h5> 
+      <h1><b>금융공학 레시피</b></h1>
+      <h6><i>한국거래소 김용환<br>한국투자공사 Indygrab 공저</i></h6>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./image/ny04.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h5>금융인이라면 꼭 알아야 할</h5> 
+      <h1><b>금융공학 레시피</b></h1>
+      <h6><i>한국거래소 김용환<br>한국투자공사 Indygrab 공저</i></h6>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./image/ny05.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h5>금융인이라면 꼭 알아야 할</h5> 
+      <h1><b>금융공학 레시피</b></h1>
+      <h6><i>한국거래소 김용환<br>한국투자공사 Indygrab 공저</i></h6>  
+   </div>
+  </div>  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="recommend">
+    <h2 class="w3-wide">금융공학 레시피</h2>
+    <p class="w3-opacity"><i>이과생의 금융 울렁증과 문과생의 코딩 공포증 해소를 위해 </i></p>
+    <p class="w3-opacity">금융인이라면 꼭 알아야 할 엑기스를 담았습니다</p>
+    <p class="w3-justify">금융 전문가가 되고싶은 사람이라면 한번은 봐야할 책</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="./image/photo.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p><b>이화수</b></p>
+        <p>한국증권금융 OO팀장</p>
+        <p><i>프로그래밍과 금융공학을 배우고싶은 경상계열 출신에게 꼭 필요한 책</i></p>
+      </div>
+      <div class="w3-third">
+        <img src="./image/photo2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p><b>김찬현</b></p>
+        <p>한국수출입은행 Biz혁신지원반 부부장</p>
+        <p><i>금융과 IT를 아우르는 융합인재가 되기 위한 필독서</i></p>
+      </div>
+      <div class="w3-third">
+        <img src="./image/thrho.gif" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p><b>노태협</b></p>
+        <p>덕성여자대학교 경영학과 교수</p>
+        <p><i>코딩을 배우고 싶은 경상계열 학생과 금융기관 취업을 준비하는 분들에게 적극 추천합니다.</i></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Book -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="book">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">책 소개</h2>
+ 
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>New York</b></p>
+            <p class="w3-opacity">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Paris</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>San Francisco</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- author -->
+  <article class="w3-container w3-center w3-dark-gray" style="max-width:800px" id="author">
+    <h2 class="w3-wide w3-center">작가 소개</h2>
+	<div class="w3-half w3-cell w3-mobile" style="width:50%">
+	  <h3 class="w3-wide w3-center">김용환</h3>
+	  <p><b>한국거래소</b><br>증권상품부, 인덱스부, 해외사업부 등</p>
+	  <p>SK C&C 프로그래머</p>
+	  <p>연세대학교 산업공학과</p>
+	  <p>UC Irvine (캘리포니아대학교) MBA</p>
+	</div>
+ 	<div class="w3-half w3-cell w3-mobile" style="width:50%">
+	  <h3 class="w3-wide w3-center">Indygrab</h3>
+	  <p><b>한국투자공사</b><br>투자Operation팀, IT팀</p>
+	  <p>삼성SDS 프로그래머</p>
+	  <p>한양대학교 전자전기공학부</p>
+	  <p>CFA (국제 재무분석사)</p>
+	</div>
+  </article>
+
+  <!-- download -->
+  <div class="w3-container w3-content w3-padding-32" style="max-width:800px" id="download">
+    DOWNLOAD
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>문의사항을 남겨주세요</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <!--i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br-->
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: concert@naver.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+<!-- Add Google Maps -->
+<!--div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div-->
+<script>
+function myMap() {
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Copyright &copy; Finterstellar.com</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
